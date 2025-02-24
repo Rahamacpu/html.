@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.body{
+    background-color: rgba(75, 2, 2, 0.89);
+}
+
+.skewed-header{
+    position: relative;
+    height: 510px;
+    overflow: hidden;
+}
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(40%);
+}
+.skewed-header > .skewed-header-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%vw;
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
+    background-color: #e2a30e;
+    color: rgb(238, 229, 229);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper:hover{
+    color: rgb(19, 2, 2);
+    letter-spacing: 1px;
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .link-wrapper a{
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .link-wrapper a:hover{
+    color: rgb(19, 2, 2);
+    letter-spacing: 1px;
+}
+
+
+
+
+ .h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-bottom: 1rem;
+}
+.menu{
+    color: white;
+padding-left: 50px;
+list-style: none;
+
+}
+ .menu li{
+    display: block;
+    
+}
+    
